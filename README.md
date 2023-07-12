@@ -81,35 +81,12 @@ Throughout the development process, we will adhere to Flutter's widget-based str
 
 By combining our screen navigation and widgets implementation strategies, we aim to deliver a user-friendly and immersive chat app, leveraging the power of Flutter and Firebase to create a seamless and enjoyable user experience.
 
+![flow_diagram](https://github.com/cookat99/Final-Assessment-arbaa/assets/130360701/fb8c032e-03e4-491a-be26-e988ec70132a)
+
 
 ### Sequence Diagram
-  +--------------+           +----------------+         +-----------------+
-  |  User A      |           |  User B        |         |  Firebase       |
-  +--------------+           +----------------+         +-----------------+
-         |                            |                          |
-         |   Scan NFC tag             |                          |
-         |--------------------------->|                          |
-         |                            |                          |
-         |    Join group chat         |                          |
-         |--------------------------->|                          |
-         |                            |                          |
-         |   Retrieve chat data       |                          |
-         |<---------------------------|                          |
-         |                            |                          |
-         |                            |                          |
-         |     Send message           |                          |
-         |--------------------------->|                          |
-         |                            |                          |
-         |                            |   Store message          |
-         |                            |------------------------> |
-         |                            |                          |
-         |                            |       Notify             |
-         |                            |------------------------> |
-         |                            |                          |
-         |    Receive message         |                          |
-         |<---------------------------|                          |
-         |                            |                          |
-         |                            |                          |
+![sequence_diagram](https://github.com/cookat99/Final-Assessment-arbaa/assets/130360701/49832344-01a0-4d01-aa00-9c77e3fc88dd)
+
 
 ### References
 1. Chandler, N. (2012, March 14). What’s an NFC Tag? HowStuffWorks. https://electronics.howstuffworks.com/nfc-tag.htm
