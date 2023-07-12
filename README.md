@@ -40,6 +40,24 @@ In summary, the project aims to create a mobile application that utilizes NFC te
 7. Cloud Storage: Firebase's Cloud Firestore is utilized for storing chat messages and user information securely.
 
 
+### Project's Achievements
+1. #### Completed Achievements:
+   - Successfully developed a working Flutter chat app with Firebase integration.
+   - Implemented essential screens: login page, registration page, home page, chat list page, and chat page.
+   - Implemented user authentication using Firebase Authentication.
+   - Integrated Firebase Cloud Firestore for storing chat messages and user information.
+   - Developed functionalities for sending and receiving text-based messages in real-time within individual chats.
+   - Implemented notifications to notify users about new messages.
+
+2. #### Pending Achievements:
+   - Group Chat Functionality: The ability to create new group chats and customize their names and settings is yet to be implemented.
+   - NFC Tag Functionality: The feature to scan NFC tags to initiate group chats is pending.
+   - User Edit and Participant Removal: The functionality to edit group chat details and remove participants from group chats has not been achieved.
+
+To further enhance our project, we will focus on implementing the pending features mentioned above, such as group chat creation, NFC tag scanning, and user management functionalities. These additions will significantly improve the functionality and user experience of our chat app.
+
+
+
 ### Screen Navigation and Widgets Implementation:
 In our Flutter chat app with Firebase, we will incorporate effective screen navigation and widget implementation to create a seamless and intuitive user experience. This section outlines our approach to handle the different screens and widgets within the application.
 
